@@ -5,8 +5,7 @@
 
 body{
 	background-attachment: fixed;
-	background-repeat: repeat;
-	background-size: 100%;
+	background-size: cover;
 
 }
 
@@ -67,6 +66,7 @@ body{
 	box-shadow: var(--shadow_property);
 	position: absolute;
 	font-family: 'Monoton', cursive;
+	
 }
 
 
@@ -100,7 +100,13 @@ body{
 
 /*文字部分*/
 h1{
-	font-size: 400%;
-	line-height: 0;
+	font-size: 400%;	
 }
 
+/*  颜色设计缺陷
+.game{
+	background: -webkit-linear-gradient(left,rgba(255,0,0,0.99),rgba(255,165,0,0.99),rgba(255,255,0,0.99),rgba(0,128,1,0.99),rgba(0,0,254,0.99),rgba(148,0,212,0.99)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+*/

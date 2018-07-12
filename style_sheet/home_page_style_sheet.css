@@ -50,7 +50,9 @@ body{
 	/*margin: 0 0 1cm 8cm;*/
 	box-shadow: var(--shadow_property);
 	position: absolute;
-
+	font-family: 'Bungee Shade', cursive;
+	color: rgb(111,118,102);
+	font-size: 90%;
 }
 
 #game_link{

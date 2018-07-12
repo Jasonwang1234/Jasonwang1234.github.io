@@ -1,45 +1,94 @@
+/*	https://jasonwang1234.github.io/ */
 :root{
 	--shadow_property: 9px 9px 10px 0 #a0a0a0;
+}
+
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background
+
 }
 
 .home_links_unique{
 	width: 8cm;
  	height: 8cm;
- 	margin: 2.5cm 1.5cm 0cm 8cm;
+ 	/* margin: 2.5cm 1.5cm 0cm 8cm; */
+ 	top: 3cm;
+ 	left: 10.4cm;
+ 	position: absolute;
  	/*testing color: red*/
-	background-color: rgba(255,0,0,0.5);
+	background-color: rgba(68,138,255,0.5);
 	display: inline-block;
 	box-shadow: var(--shadow_property);
-
+	transition: width 1s, height 1s;
 }
 
 #sport_link{
-
 	width: 10cm;
 	height: 10cm;
+	top: 1cm;
+ 	left: 20.4cm;
 	border-radius: 0 10cm 0 0;
 	background-color: rgba(0,0,255,0.5);
 	display: inline-block; 
-	box-shadow: 9px 9px 10px 0 #a0a0a0;
+	box-shadow: var(--shadow_property);
+	position: absolute;
 }
 
 #brand_link{
 	width: 8cm;
 	height: 8cm;
+	top: 13cm;
+	left: 10.4cm;
 	border-radius: 0 0 0 8cm;
 	background-color: rgba(0,255,0,0.5);
 	display: inline-block;
-	margin: 0 0 1cm 8cm;
-	box-shadow: 9px 9px 10px 0 #a0a0a0;
+	/*margin: 0 0 1cm 8cm;*/
+	box-shadow: var(--shadow_property);
+	position: absolute;
 }
 
 #game_link{
 	width: 9cm;
 	height: 9cm;
+	top: 13cm;
+	left: 20.4cm;
 	border-radius: 0 0 9cm 0;
 	background-color: rgba(0,255,255,0.5);
 	display: inline-block;
-	margin: 1.5cm 0 0 1.5cm; 
-	box-shadow: 9px 9px 10px 0 #a0a0a0;
+	/*margin: 1.5cm 0 0 1.5cm;*/ 
+	box-shadow: var(--shadow_property);
+	position: absolute;
 }
+
+
+.home_links{
+	transition: width 1s,height 1s;
+}
+.home_links:hover{
+	/*通用按钮鼠标悬浮设置*/
+	transition: width 2s, height 2s;
+}
+
+#game_link:hover{
+	width: 9.5cm;
+	height: 9.5cm;
+}
+#sport_link:hover{
+	width: 10.5cm;
+	height: 10.5cm;
+}
+#brand_link:hover{
+	width: 8.5cm;
+	height: 8.5cm;
+}
+
+.home_links_unique:hover{
+	height: 8.5cm;
+	width: 8.5cm;
+	transition: height 2s, width 2s;
+}
+
+
 

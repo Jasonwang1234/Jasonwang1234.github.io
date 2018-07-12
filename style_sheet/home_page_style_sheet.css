@@ -1,11 +1,11 @@
 /*	https://jasonwang1234.github.io/ */
 :root{
-	--shadow_property: 9px 9px 10px 0 #a0a0a0;
+	--shadow_property: 9px 9px 10px 0 #0f0f0f;
 }
 
 body{
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: 100%;
 
 }
@@ -14,8 +14,8 @@ body{
 	width: 8cm;
  	height: 8cm;
  	/* margin: 2.5cm 1.5cm 0cm 8cm; */
- 	top: 3cm;
- 	left: 10.4cm;
+ 	top: 2.5cm;
+ 	left: 9.9cm;
  	position: absolute;
  	/*testing color: red*/
 	background-color: rgba(68,138,255,0.5);
@@ -27,8 +27,8 @@ body{
 #sport_link{
 	width: 10cm;
 	height: 10cm;
-	top: 1cm;
- 	left: 20.4cm;
+	top: 0.5cm;
+ 	left: 19.4cm;
 	border-radius: 0 10cm 0 0;
 	background-color: rgba(0,0,255,0.5);
 	display: inline-block; 
@@ -39,8 +39,8 @@ body{
 #brand_link{
 	width: 8cm;
 	height: 8cm;
-	top: 13cm;
-	left: 10.4cm;
+	top: 12cm;
+	left: 9.9cm;
 	border-radius: 0 0 0 8cm;
 	background-color: rgba(0,255,0,0.5);
 	display: inline-block;
@@ -52,8 +52,8 @@ body{
 #game_link{
 	width: 9cm;
 	height: 9cm;
-	top: 13cm;
-	left: 20.4cm;
+	top: 12cm;
+	left: 19.5cm;
 	border-radius: 0 0 9cm 0;
 	background-color: rgba(0,255,255,0.5);
 	display: inline-block;

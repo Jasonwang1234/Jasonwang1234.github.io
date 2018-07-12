@@ -18,10 +18,11 @@ body{
  	left: 9.9cm;
  	position: absolute;
  	/*testing color: red*/
-	background-color: rgba(68,138,255,0.5);
+	background-color: rgba(127 ,218 ,207,0.75);
 	display: inline-block;
 	box-shadow: var(--shadow_property);
 	transition: width 1s, height 1s;
+	font-family: 'Stardos Stencil', cursive;
 }
 
 #sport_link{
@@ -30,10 +31,12 @@ body{
 	top: 0.5cm;
  	left: 19.4cm;
 	border-radius: 0 10cm 0 0;
-	background-color: rgba(0,0,255,0.5);
+	background: linear-gradient(rgba(178,180,181,0.75) 20%,rgba(250,250,250,0.75) 40%,rgba(168,169,173,0.75));
 	display: inline-block; 
 	box-shadow: var(--shadow_property);
 	position: absolute;
+	text-align: left;
+	font-family: 'Orbitron', sans-serif;
 }
 
 #brand_link{
@@ -42,11 +45,12 @@ body{
 	top: 12cm;
 	left: 9.9cm;
 	border-radius: 0 0 0 8cm;
-	background-color: rgba(0,255,0,0.5);
+	background-color: rgba(94,73,138,0.75);
 	display: inline-block;
 	/*margin: 0 0 1cm 8cm;*/
 	box-shadow: var(--shadow_property);
 	position: absolute;
+
 }
 
 #game_link{
@@ -60,6 +64,7 @@ body{
 	/*margin: 1.5cm 0 0 1.5cm;*/ 
 	box-shadow: var(--shadow_property);
 	position: absolute;
+	font-family: 'Monoton', cursive;
 }
 
 
@@ -91,4 +96,9 @@ body{
 }
 
 
+/*文字部分*/
+h1{
+	font-size: 400%;
+	line-height: 0;
+}
 

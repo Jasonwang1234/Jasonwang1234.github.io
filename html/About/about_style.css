@@ -1,0 +1,77 @@
+#whole{
+	font-family: Agency FB;
+}
+
+#head{
+	font-size: 40;
+	color: rgba(175,32,0,0.73);
+	line-height: 160%;
+	font-family:Algerian;
+	text-align: center;
+}
+.line_{
+	line-height: 1%;
+	height: 2%;
+	background-color: rgba(0,0,0,0.6);	
+}
+
+#subheading{
+	color: rgb(80,40,70);
+	font-size: 28;
+	text-align: center;
+}
+
+#text{
+	color: rgb(120,109,180);
+	font-size: 26;
+	text-align: center;
+}
+
+.HL:link{
+	color: rgb(133,109,114);
+	text-decoration: none;
+	transition: color 2s;
+}
+.HL:visited{
+	color: grey;
+}
+.HL:hover{
+	color: red;
+	transition: color 1s;
+}
+/*
+.HL:active{
+	color:red;
+}
+*/
+
+/*Setting "go back" link*/
+
+#go_back:link{ 
+	color: rgba(0,0,0,0.6);
+	transition: color 2s;
+	text-decoration: none;
+	}
+	#go_back:visited{
+		color: rgba(0,0,0,0.6);
+	}
+	#go_back:hover{
+		color: rgb(255,100,100);
+		transition: color 0.2s;
+	}
+
+
+body{
+
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: 100%;
+	margin: 3% 18% 3%
+}
+
+#top_button{
+	width: 10%;
+	height: 10%;
+	background-color: black;
+	border-radius: 
+}

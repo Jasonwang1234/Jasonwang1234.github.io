@@ -97,6 +97,24 @@ body{
 	transition: height 2s, width 2s;
 }
 
+#about_author{
+	top: 80%;
+	height: 2cm;
+	width: 2cm;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	text-align:center;	
+	text-decoration: none;
+
+
+}
+
+#about_author:hover{
+	background-color: rgb(150,150,150);
+	transition: 
+}
+
 
 /*文字部分*/
 h1{

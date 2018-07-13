@@ -2,3 +2,35 @@ body{
 	background-size: cover;
 	background-attachment: fixed; 
 }
+
+#navg{
+	top: 0;
+	right: 0;
+	left: 0;
+	right: 0;
+	height: 1.75cm;
+	width: 100%;
+	background: linear-gradient(to left,rgb(160,160,160),rgb(220,220,220),rgb(160,160,160));
+	position: absolute;
+}
+
+.tag{
+	height: 50%;
+	width: 15%;
+	display: inline-block;
+	color:  rgb(0,0,0);
+	font-weight: bold;
+	transition: color 3s;
+}	
+
+.tag:hover{
+	color: rgb(91, 105, 174);
+	transition: color 0.5s;
+}
+
+
+
+p{
+	margin-top: 10%;
+}
+

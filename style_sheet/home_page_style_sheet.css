@@ -22,9 +22,14 @@ body{
 	box-shadow: var(--shadow_property);
 	transition: width 1s, height 1s;
 	font-family: 'Stardos Stencil', cursive;
+	background: url(../picture/study_tag.jpg);
+	background-size: cover;	
+	color: rgb(63, 160, 139);
+	font-size: 120%
 }
 
 #sport_link{
+	color: rgb(190,190,190);
 	width: 10cm;
 	height: 10cm;
 	top: 0.5cm;
@@ -36,6 +41,8 @@ body{
 	position: absolute;
 	text-align: left;
 	font-family: 'Orbitron', sans-serif;
+	background: url(../picture/sport_tag.jpg);	
+	background-size: cover;
 }
 
 #brand_link{
@@ -50,8 +57,10 @@ body{
 	box-shadow: var(--shadow_property);
 	position: absolute;
 	font-family: 'Bungee Shade', cursive;
-	color: rgb(111,118,102);
+	color: rgb(61,144,123);
 	font-size: 90%;
+	background: url(../picture/brand_tag.jpg);	
+	background-size: cover;
 }
 
 #game_link{
@@ -60,14 +69,16 @@ body{
 	top: 12cm;
 	left: 19.5cm;
 	border-radius: 0 0 9cm 0;
-	background-color: rgba(0,255,255,0.5);
+	/*background-color: rgba(0,255,255,0.5);*/
 	display: inline-block;
 	/*margin: 1.5cm 0 0 1.5cm;*/ 
 	box-shadow: var(--shadow_property);
 	position: absolute;
 	font-family: 'Monoton', cursive;
-	
+	background: url(../picture/game_tag_2.jpg);	
+	color: rgb(228, 153, 118);
 }
+
 
 
 .home_links{
@@ -98,7 +109,6 @@ body{
 }
 
 #about_author{
-	top: 80%;
 	height: 2cm;
 	width: 2cm;
 	background-color: black;

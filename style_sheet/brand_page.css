@@ -1,0 +1,123 @@
+body{
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+#navg{
+	top: 0;
+	right: 0;
+	left: 0;
+	right: 0;
+	height: 1.75cm;
+	width: 100%;
+	background: linear-gradient(to left,rgb(160,160,160),rgb(220,220,220),rgb(160,160,160));
+	position: absolute;
+}
+
+.tag{
+	height: 50%;
+	width: 15%;
+	display: inline-block;
+	color:  rgb(0,0,0);
+	font-weight: bold;
+	transition: color 3s;
+	line-height: 180%;
+}	
+
+.tag:hover{
+	color: rgb(91, 105, 174);
+	transition: color 0.5s;
+}
+
+#fram{
+	top: 1.75cm;
+	height: calc(100% - 1.75cm);
+	width: 100%;
+	position: absolute;
+}
+
+
+
+#champion{
+	position: absolute;
+	display: inline-block;
+	margin-top: 6%;
+	margin-left: 15%;
+	width: 20%;
+	height: 10%;
+	transition: margin-top 2s, margin-left 2s;
+}
+#champion:hover{
+	margin-top: 8%;
+	margin-left: 17%;
+	transition: margin-top 0.5s, margin-left 0.5s;
+}
+
+
+
+#noah{
+	position: absolute;
+	display: inline-block;
+	margin-top: 24%;
+	margin-left: 78%;
+	width: 20%;
+	height: 10%;
+	transition: margin-top 2s, margin-left 2s;
+}
+#noah:hover{
+	margin-top: 26%;
+	margin-left: 76%;
+	transition: margin-top 0.5s, margin-left 0.5s;
+}
+
+
+
+#off_white{
+	position: absolute;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 43%;
+	width: 20%;
+	height: 10%;
+	transition: margin-top 2s, margin-left 2s;
+}
+#off_white:hover{
+	margin-top: 4%;
+	margin-left: 41%;
+	transition: margin-top 0.5s, margin-left 0.5s;
+}
+
+
+
+
+#supreme{
+	position: absolute;
+	display: inline-block;
+	margin-top: 16%;
+	margin-left: 4%;
+	width: 20%;
+	height: 10%;
+	transition: margin-top 2s, margin-left 2s;
+}
+#supreme:hover{
+	margin-top: 18%;
+	margin-left: 6%;
+	transition: margin-top 0.5s, margin-left 0.5s;
+}
+
+
+
+#evisu{
+	position: absolute;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 70%;
+	width: 20%;
+	height: 10%;
+	transition: margin-top 2s, margin-left 2s;
+}
+#evisu:hover{
+	margin-top: 7%;
+	margin-left: 68%;
+	transition: margin-top 0.5s, margin-left 0.5s;
+}

@@ -3,6 +3,17 @@
 	--shadow_property: 9px 9px 10px 0 #0f0f0f;
 }
 
+#navg{
+	top: 0;
+	right: 0;
+	left: 0;
+	right: 0;
+	height: 1.75cm;
+	width: 100%;
+	background: linear-gradient(to left,rgb(160,160,160),rgb(220,220,220),rgb(160,160,160));
+	position: absolute;
+}
+
 body{
 	background-attachment: fixed;
 	background-size: cover;

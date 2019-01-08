@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../style_sheet/index_style.css">
+	<link rel="icon" type="image/x-icon" href="../picture/menu.ico"/>
+	<title>
+		menu
+	</title>
+	<style type="text/css">
+		.index_menu{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			border: 5px solid #7FFFD4;
+			transform: rotate(-45deg);
+		}
+		body{
+			background: url("../menu_background_img_4.jpg");
+			background-position: center center;
+			background-attachment: fixed;
+			background-size: contain;
+		}
+		@font-face {
+			font-family: font_1;
+			src: url("../black_ops_one.eot") /* EOT file for IE */
+		}
+		@font-face {
+			font-family: font_1;
+			src: url("../black_ops_one.ttf") /* TTF file for CSS3 browsers */
+		}
+	</style>
+</head>
+<body>
+	<div id="number">
+		<script type="text/javascript">
+			var num = 0;	
+			var t1 = setTimeout(function(){   
+				var t = setInterval(function(){
+					num ++;		       
+					var number = document.getElementById("number");		       
+					number.innerText = num;			        
+					if(num == 100){
+						clearInterval(t);		        
+					}       	        
+				},30);
+			},2000);
+		</script>
+	</div>
+	<div class="line"></div>
+	<div id="menu_bg">
+		<h1>
+			MENU
+		</h1>
+		<div class="menu_tag">
+			<div class="index_menu" style="border: 5px solid #4EEE94;">
+					<p class="index"><a href="../index.html" style="text-decoration: none;"><span>H</span><span>O</span><span>M</span><span>E</span></a></p>
+			</div>
+			
+			<div class="index_menu" style="margin-top: 22.6em; margin-left: 37.7em; font-size: 100%;">
+					<p class="index"><a href="../HTML/gpp_generator.html" style="text-decoration: none;"><span>G</span><span>P</span><span>P</span><span> </span><span>G</span><span>E</span><span>N</span><span>E</span><span>R</span><span>A</span><span>T</span><span>O</span><span>R</span></a></p>
+			</div>
+
+			<div class="index_menu" style="margin-top: 14.3em; margin-left: 41.3em; font-size: 100%;">
+					<p class="index"><a href="../HTML/Searching_engine.html" style="text-decoration: none;"><span>S</span><span>E</span><span>A</span><span>R</span><span>C</span><span>H</span><span> </span><span>E</span><span>N</span><span>G</span><span>I</span><span>N</span><span>E</span></a></p>
+			</div>
+
+			<div class="index_menu" style="margin-top: 32.2em; margin-left: 46.8em; font-size: 100%;">
+					<p class="index"><a href="..\HTML\about.html" style="text-decoration: none;"><span>A</span><span>B</span><span>O</span><span>U</span><span>T</span></a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
